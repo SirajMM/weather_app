@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:36:5-79
+11-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:36:22-76
+12    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+12-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:37:5-85
+12-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:37:22-82
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:38:5-81
+13-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:38:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:39:6-68
+14-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:39:23-65
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+15-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+24        android:name="android.app.Application"
+24-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:7:9-42
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\2f9250fe16fd137113577b8384df889a\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:8:9-43
+27        android:label="weather" >
+27-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:6:9-32
+28        <activity
+28-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:9:9-29:20
+29            android:name="com.example.weather.MainActivity"
+29-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:10:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:14:13-163
+31            android:exported="true"
+31-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:11:13-36
+32            android:hardwareAccelerated="true"
+32-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:15:13-47
+33            android:launchMode="singleTop"
+33-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:12:13-43
+34            android:theme="@style/LaunchTheme"
+34-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:13:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:16:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:21:13-24:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:22:15-70
+45                android:resource="@style/NormalTheme" />
+45-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:23:15-52
+46
+47            <intent-filter>
+47-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:25:13-28:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:26:17-68
+48-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:26:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:27:17-76
+50-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:27:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:32:9-34:33
+58            android:name="flutterEmbedding"
+58-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:33:13-44
+59            android:value="2" />
+59-->C:\Users\91860\Flutter\projects\flutter-weather-app-main\android\app\src\main\AndroidManifest.xml:34:13-30
+60
+61        <service
+61-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:56
+62            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+62-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-77
+63            android:enabled="true"
+63-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-35
+64            android:exported="false"
+64-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+65            android:foregroundServiceType="location" />
+65-->[:geolocator_android] C:\Users\91860\Flutter\projects\flutter-weather-app-main\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:14:13-53
+66
+67        <uses-library
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+68            android:name="androidx.window.extensions"
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+71            android:name="androidx.window.sidecar"
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\7de7698b3b379bf98b32af45f2d0763d\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\91860\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+82    </application>
+83
+84</manifest>
