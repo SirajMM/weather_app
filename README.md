@@ -1,4 +1,4 @@
-# weather_app
+# Weather_app
 
 
 ![Screenshot_2023-05-11-15-36-19-187_com example weather](https://github.com/SirajMM/weather_app/assets/118870564/3648de54-6503-47ad-93e6-1247b759b48c)
